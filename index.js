@@ -24,5 +24,5 @@ return [...drivers, name];
 }
 
 function prependDriver(name) {
-return [names, ...drivers];
+return [name, ...drivers];
 }
