@@ -29,6 +29,5 @@ function prependDriver(name) {
 
 function removeLastDriver(){
 
-  return (copyOfDrivers.shift()); 
+  return (drivers.shift());
 }
-
